@@ -1,4 +1,4 @@
-import { Button } from '@mantine/core';
+import { Button, Center } from '@mantine/core';
 
 interface CustomButtonProps {
   label: string;
@@ -7,9 +7,11 @@ interface CustomButtonProps {
 
 const CustomButton: React.FC<CustomButtonProps> = ({ label, fullWidth = false }) => {
   return (
-    <Button fullWidth={fullWidth} bg="#4a33a9">
+    <Center>
+    <Button fullWidth={fullWidth} bg="#4a33a9" size='md' mt='sm'>
       {label}
     </Button>
+    </Center>
   );
 };
 
