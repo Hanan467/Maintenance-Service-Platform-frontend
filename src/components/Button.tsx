@@ -1,6 +1,6 @@
 import { Button, Center } from '@mantine/core';
 
-interface CustomButtonProps {
+type CustomButtonProps = {
   label: string;
   fullWidth?: boolean;
 }
