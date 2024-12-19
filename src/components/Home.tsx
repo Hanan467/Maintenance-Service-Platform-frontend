@@ -1,8 +1,8 @@
 import React from 'react';
 import { Container, Title, Image, Grid,Text, Flex, Button } from '@mantine/core';
-import HeroImage from '../../../assets/service-man.webp';
-import Navbar from '../../Navbar';
-import Footer from '../../Footer';
+import HeroImage from '../assets/service-man.webp';
+import Navbar from './Navbar';
+import Footer from './Footer';
 const Home : React.FC = () => {
     return(
         <Container>
