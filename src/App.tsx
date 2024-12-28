@@ -7,6 +7,7 @@ import Navbar from './components/Navbar';
 import ForgotPassword from './components/auth/ForgotPssword';
 import Register from './components/auth/registration';
 import Dashboard from './components/dashboard/user/dashboard';
+import ExpertDetail from './components/dashboard/user/ExpertDetail';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Route path="/register" element={<Register />} />
         <Route path="/login" element={<Login />} />
         <Route path="/userdashboard" element={<Dashboard />} />
+        <Route path="/userdashboard/expert-profile" element={<ExpertDetail />} />
 
       </Routes>
     </BrowserRouter>    

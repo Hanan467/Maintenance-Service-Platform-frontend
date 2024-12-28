@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Title, Image, Grid,Text, Flex, Button, Paper } from '@mantine/core';
+import { Container, Title, Image, Grid,Text, Flex, Button, Paper, TextInput } from '@mantine/core';
 import Navbar from '../../Navbar';
 import Footer from '../../Footer';
 import expertImage1 from '../../../assets/file.png';
@@ -18,27 +18,28 @@ const Dashboard : React.FC = () => {
       wrap="nowrap"
       m='lg'
       mb='xl'>
-      <CustomButton label='Category 1'/>
-      <CustomButton  label='Category 1'/>
-      <CustomButton  label='Category 1' />
-      <CustomButton  label='Category 1' />
-      <CustomButton  label='Category 1' />
-      <CustomButton  label='Category 1'/>
-      <CustomButton  label='Category 1' />
-      <CustomButton  label='Category 1' />
-      <CustomButton  label='Category 1' />
-      <CustomButton  label='Category 1' />    
+        <TextInput radius={50} size='sm' mt={5} h={'20px'} placeholder='search experts'></TextInput>
+      <CustomButton label='Category 1' size='xs'/>
+      <CustomButton  label='Category 1'  size='xs'/>
+      <CustomButton  label='Category 1'  size='xs' />
+      <CustomButton  label='Category 1'  size='xs' />
+      <CustomButton  label='Category 1'  size='xs' />
+      <CustomButton  label='Category 1'  size='xs'/>
+      <CustomButton  label='Category 1'  size='xs' />
+      <CustomButton  label='Category 1'  size='xs'/>
+      <CustomButton  label='Category 1'  size='xs'/>
+      <CustomButton  label='Category 1'  size='xs'/>    
     </Flex>
-    
+    <Title order={3} c={'#73A5C6'} mb='lg'>| TOP RATED</Title>
     <Flex
-      gap="xl"
+      gap="lg"
       justify="center"
       align="start"
       direction="row"
       wrap="nowrap"
       w={'90vw'}
     >
-     <Paper shadow="xl" radius="lg" w='230px' h='200px' bg='#eaeced'>
+     <Paper shadow="xl" radius="lg" w='230px' h='150px' bg='#eaeced'>
         <Grid>
             <Grid.Col span={4} >
                 <Text ms='md' mt='lg' fw={700}>Monika bankins</Text>
@@ -47,16 +48,16 @@ const Dashboard : React.FC = () => {
                 <Image src={expertImage1} w='160px' h='160px' radius='md' mt='sm'/>
             </Grid.Col>
         </Grid>
-        <Grid bg='black' >
+        <Grid bg='gray' >
         <Grid.Col span={8} >
         <Text ms='lg'  c='white' fw={400}>Electrician</Text>
         </Grid.Col>
         <Grid.Col span={4} >
-            <Button radius='xl' size='xs'>... </Button>
+            <Button radius='xl' size='xs'color='#73A5C6'>... </Button>
         </Grid.Col>
         </Grid>
      </Paper>
-     <Paper shadow="xl" radius="lg" w='230px' h='200px' bg='#eaeced'>
+     <Paper shadow="xl" radius="lg" w='230px' h='150px' bg='#eaeced'>
         <Grid>
             <Grid.Col span={4} >
                 <Text ms='md' mt='lg' fw={700}>Monika bankins</Text>
@@ -65,16 +66,16 @@ const Dashboard : React.FC = () => {
                 <Image src={expertImage1} w='160px' h='160px' radius='md' mt='sm'/>
             </Grid.Col>
         </Grid>
-        <Grid bg='black' >
+        <Grid bg='gray' >
         <Grid.Col span={8} >
         <Text ms='lg'  c='white' fw={400}>Electrician</Text>
         </Grid.Col>
         <Grid.Col span={4} >
-            <Button radius='xl' size='xs'>... </Button>
+            <Button radius='xl' size='xs' color='#73A5C6'>... </Button>
         </Grid.Col>
         </Grid>
      </Paper>    
-     <Paper shadow="xl" radius="lg" w='230px' h='200px' bg='#eaeced'>
+     <Paper shadow="xl" radius="lg" w='230px' h='150px' bg='#eaeced'>
         <Grid>
             <Grid.Col span={4} >
                 <Text ms='md' mt='lg' fw={700}>Monika bankins</Text>
@@ -83,16 +84,16 @@ const Dashboard : React.FC = () => {
                 <Image src={expertImage1} w='160px' h='160px' radius='md' mt='sm'/>
             </Grid.Col>
         </Grid>
-        <Grid bg='black' >
+        <Grid bg='gray' >
         <Grid.Col span={8} >
         <Text ms='lg'  c='white' fw={400}>Electrician</Text>
         </Grid.Col>
         <Grid.Col span={4} >
-            <Button radius='xl' size='xs'>... </Button>
+            <Button radius='xl' size='xs'color='#73A5C6'>... </Button>
         </Grid.Col>
         </Grid>
      </Paper>    
-     <Paper shadow="xl" radius="lg" w='230px' h='200px' bg='#eaeced'>
+     <Paper shadow="xl" radius="lg" w='230px' h='150px' bg='#eaeced'>
         <Grid>
             <Grid.Col span={4} >
                 <Text ms='md' mt='lg' fw={700}>Monika bankins</Text>
@@ -101,16 +102,16 @@ const Dashboard : React.FC = () => {
                 <Image src={expertImage1} w='160px' h='160px' radius='md' mt='sm'/>
             </Grid.Col>
         </Grid>
-        <Grid bg='black' >
+        <Grid bg='gray' >
         <Grid.Col span={8} >
         <Text ms='lg'  c='white' fw={400}>Electrician</Text>
         </Grid.Col>
         <Grid.Col span={4} >
-            <Button radius='xl' size='xs'>... </Button>
+            <Button radius='xl' size='xs'color='#73A5C6'>... </Button>
         </Grid.Col>
         </Grid>
      </Paper>    
-     <Paper shadow="xl" radius="lg" w='230px' h='200px' bg='#eaeced'>
+     <Paper shadow="xl" radius="lg" w='230px' h='150px' bg='#eaeced'>
         <Grid>
             <Grid.Col span={4} >
                 <Text ms='md' mt='lg' fw={700}>Monika bankins</Text>
@@ -119,16 +120,16 @@ const Dashboard : React.FC = () => {
                 <Image src={expertImage1} w='160px' h='160px' radius='md' mt='sm'/>
             </Grid.Col>
         </Grid>
-        <Grid bg='black' >
+        <Grid bg='gray' >
         <Grid.Col span={8} >
         <Text ms='lg'  c='white' fw={400}>Electrician</Text>
         </Grid.Col>
         <Grid.Col span={4} >
-            <Button radius='xl' size='xs'>... </Button>
+            <Button radius='xl' size='xs'color='#73A5C6'>... </Button>
         </Grid.Col>
         </Grid>
      </Paper> 
-     <Paper shadow="xl" radius="lg" w='230px' h='200px' bg='#eaeced'>
+     <Paper shadow="xl" radius="lg" w='230px' h='150px' bg='#eaeced'>
         <Grid>
             <Grid.Col span={4} >
                 <Text ms='md' mt='lg' fw={700}>Monika bankins</Text>
@@ -137,12 +138,12 @@ const Dashboard : React.FC = () => {
                 <Image src={expertImage1} w='160px' h='160px' radius='md' mt='sm'/>
             </Grid.Col>
         </Grid>
-        <Grid bg='black' >
+        <Grid bg='gray' >
         <Grid.Col span={8} >
         <Text ms='lg'  c='white' fw={400}>Electrician</Text>
         </Grid.Col>
         <Grid.Col span={4} >
-            <Button radius='xl' size='xs'>... </Button>
+            <Button radius='xl' size='xs'color='#73A5C6'>... </Button>
         </Grid.Col>
         </Grid>
      </Paper>           
